@@ -31,6 +31,9 @@ class Config(BaseSettings):
     API_HOST: str
     API_PORT: int
 
+    SSL_CERT_PATH: str
+    SSL_PRIVATE_KEY_PATH: str
+
     LOG_LVL: str
     LOGS_PATH: str
     LOG_NAME: str
